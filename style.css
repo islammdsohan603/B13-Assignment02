@@ -473,3 +473,50 @@ nav button:hover {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+footer {
+  background-image: url(./assets/footer-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.footer-contant {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 0;
+  flex-direction: column;
+}
+
+.footer-title {
+  font-size: 3rem;
+  color: #FFF;
+  margin-top: -30px;
+}
+
+.footer-links {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  margin-top: 28px;
+}
+
+.link span {
+  font-size: 1rem;
+  color: #ddd;
+  margin-left: 10px;
+}
+
+footer p {
+  text-align: center;
+  padding-bottom: 20px;
+  color: #ddd;
+  font-size: 1rem;
+}
