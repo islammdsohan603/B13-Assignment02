@@ -520,3 +520,573 @@ footer p {
   color: #ddd;
   font-size: 1rem;
 }
+
+/* Responsiv */
+
+@media screen and (max-width:576px) {
+  header {
+    padding: 40px;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  nav .title {
+    font-size: 1.5rem;
+  }
+
+  .nav-item {
+    display: none;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  #mobile-menu {
+    display: block;
+    cursor: pointer;
+  }
+
+  /* hero section */
+  .Hero-container {
+    background-image: url("./assets/hero-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .Hero-contant {
+    padding-top: 50px;
+
+  }
+
+  .img-tag {
+    position: relative;
+    width: 300px;
+    height: 300px;
+  }
+
+  .frist-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+  }
+
+  .secand-img {
+    width: 100px;
+    height: 150px;
+  }
+
+  .Hero-descr .hero-title {
+    font-size: 3rem;
+
+  }
+
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .btn button {
+    width: auto;
+    height: 40px;
+  }
+
+  /* about-section */
+
+  .about-section {
+    padding: 20px 0;
+
+  }
+
+  .about-contant {
+    padding: 0 20px;
+  }
+
+  .about-text {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 450px;
+    margin-bottom: 20px;
+  }
+
+  .about-text .about-title {
+    font-size: 2rem;
+    margin-bottom: 8px;
+  }
+
+  .about-text p {
+    color: #ddd;
+    font-size: .7rem;
+    font-weight: 500;
+    line-height: 15px;
+  }
+
+  .about-grid {
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 50px;
+    gap: 20px;
+  }
+
+  .about-card {
+    width: auto;
+
+  }
+
+  .about-card:hover {
+    transform: scale(1.1);
+  }
+
+  /* Techwave */
+
+
+
+  .choose-container,
+  .featured {
+    padding: 30px 0;
+    color: #FFF;
+  }
+
+  .choose-container h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .tech-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas:
+      "headphone"
+      "mobile"
+      "location"
+      "zeap"
+      "resource";
+    gap: 20px;
+    padding: 0 20px;
+  }
+
+  /* featured section */
+
+  .featured-section {
+    padding: 40px 0;
+    background: rgba(16, 11, 46, 1);
+  }
+
+  .featured-contant h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+
+  .featured-cards {
+    grid-template-columns: 1fr;
+
+  }
+
+  .card {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  /* host man */
+
+  .host-container .host-title {
+    font-size: 2rem;
+  }
+
+  .host-contant {
+    flex-direction: column;
+    text-align: center;
+  }
+
+
+  .host-info .host-decsription {
+    max-width: 400px;
+  }
+
+  .host-sosail {
+    justify-content: center;
+  }
+
+  .host-sosail a:hover {
+    transform: scale(1.1);
+  }
+
+  footer {
+    background-image: url(./assets/footer-bg.png);
+    background-position: center;
+  }
+
+  .footer-contant {
+    padding: 50px 0;
+
+  }
+
+  .footer-title {
+    font-size: 3rem;
+    color: #FFF;
+
+  }
+
+  .footer-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+
+  .link {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+  }
+
+}
+
+@media screen and (min-width:577px) and (max-width:776px) {
+
+  header {
+    padding: 30px;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  nav .title {
+    font-size: 1.5rem;
+  }
+
+  .nav-item {
+    display: none;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  #mobile-menu {
+    display: block;
+    cursor: pointer;
+  }
+
+  /* hero section */
+  .Hero-container {
+    background-image: url("./assets/hero-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .Hero-contant {
+    padding-top: 50px;
+
+  }
+
+  .img-tag {
+    position: relative;
+    width: 300px;
+    height: 300px;
+  }
+
+  .frist-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+  }
+
+  .secand-img {
+    width: 100px;
+    height: 150px;
+  }
+
+  .Hero-descr .hero-title {
+    font-size: 3rem;
+
+  }
+
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .btn button {
+    width: auto;
+    height: 40px;
+  }
+
+  /* about-section */
+
+  .about-section {
+    padding: 20px 0;
+
+  }
+
+  .about-contant {
+    padding: 0 20px;
+  }
+
+  .about-text {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 450px;
+    margin-bottom: 20px;
+  }
+
+  .about-text .about-title {
+    font-size: 2rem;
+    margin-bottom: 8px;
+  }
+
+  .about-text p {
+    color: #ddd;
+    font-size: .7rem;
+    font-weight: 500;
+    line-height: 15px;
+  }
+
+  .about-grid {
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 50px;
+    gap: 20px;
+    margin: 0 auto;
+  }
+
+  .about-card {
+    width: auto;
+
+  }
+
+  .about-card:hover {
+    transform: scale(1.1);
+  }
+
+  /* Techwave */
+
+
+
+  .choose-container,
+  .featured {
+    padding: 30px 0;
+    color: #FFF;
+  }
+
+  .choose-container h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .tech-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas:
+      "headphone"
+      "mobile"
+      "location"
+      "zeap"
+      "resource";
+    gap: 20px;
+    padding: 0 20px;
+  }
+
+  /* featured section */
+
+  .featured-section {
+    padding: 40px 0;
+    background: rgba(16, 11, 46, 1);
+  }
+
+  .featured-contant h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+
+  .featured-cards {
+    grid-template-columns: 1fr;
+
+  }
+
+  .card {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  /* host man */
+
+  .host-container .host-title {
+    font-size: 2rem;
+  }
+
+  .host-contant {
+    flex-direction: column;
+    text-align: center;
+  }
+
+
+  .host-info .host-decsription {
+    max-width: 400px;
+  }
+
+  .host-sosail {
+    justify-content: center;
+  }
+
+  .host-sosail a:hover {
+    transform: scale(1.1);
+  }
+
+  footer {
+    background-image: url(./assets/footer-bg.png);
+    background-position: center;
+  }
+
+  .footer-contant {
+    padding: 50px 0;
+
+  }
+
+  .footer-title {
+    font-size: 3rem;
+    color: #FFF;
+
+  }
+
+  .footer-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+
+  .link {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+  }
+
+}
+
+@media screen and (min-width:778px) and (max-width:996px) {
+  header {
+
+    padding: 20px 50px;
+  }
+
+  .btn button {
+    width: auto;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+  }
+
+  .about-section {
+    padding: 30px 0;
+
+  }
+
+  .about-text {
+    max-width: 500px;
+  }
+
+  .about-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-top: 1px solid #000;
+    gap: 20px;
+  }
+
+  .about-card h2 {
+    font-size: 2.5rem;
+  }
+
+  .about-card p {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .tech-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "headphone mobile  "
+      "headphone location  "
+      "  zeap resource";
+    gap: 20px;
+  }
+
+  .tech-cards h5 {
+    font-size: 1.5rem;
+  }
+
+  .tech-cards p {
+    font-size: 1.2rem;
+  }
+
+  .featured-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+  .card {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .card h6 {
+    font-size: 1.9rem;
+  }
+
+  .card p {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .time-div {
+    display: flex;
+    align-items: center;
+  }
+
+  .time-div img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .time-div h5 {
+    font-size: 1.4rem;
+    margin-left: -15px;
+  }
+
+  .host-contant {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .host-info .host-name {
+    font-size: 2rem;
+
+  }
+
+  .host-info .host-decsription {
+    font-size: 1.3rem;
+    line-height: 30px;
+    width: 600px;
+
+  }
+
+  .host-sosail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 0;
+  }
+}
