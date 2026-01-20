@@ -347,3 +347,129 @@ nav button:hover {
   font-weight: 400;
   color: #ddd;
 }
+
+/* featured section */
+
+.featured-section {
+  padding: 80px 0;
+  background: rgba(16, 11, 46, 1);
+}
+
+.featured-contant h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.featured-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  width: 350px;
+  height: 450px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 0 15px #030e09;
+  background: #2e174e;
+  cursor: pointer;
+}
+
+.card iframe {
+  width: 100%;
+  height: 220px;
+  border: none;
+  overflow: hidden;
+}
+
+
+
+.card h6 {
+  font-size: 1.4rem;
+  padding: 10px;
+}
+
+.card p {
+  font-size: .9rem;
+  line-height: 25px;
+  padding: 10px;
+}
+
+.time-div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.time-div h5 {
+  margin-left: -15px;
+}
+
+/* host man */
+.host-container {
+  padding-top: 20px;
+}
+
+.host-container .host-title {
+  padding: 40px;
+  text-align: center;
+  font-size: 2.3rem;
+}
+
+.host-contant {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #1e0f32;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+.host-info .host-name {
+  font-size: 1.2rem;
+  margin-left: 18px;
+  margin-bottom: 8px;
+}
+
+.host-info .host-decsription {
+  font-size: .9rem;
+  color: #948f8f;
+  width: 700px;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+.host-sosail {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.host-sosail a {
+  width: 40px;
+  height: 40px;
+  background: #030e09;
+  position: relative;
+  border-radius: 50%;
+  border: 1px solid;
+  cursor: pointer;
+  transition: .6s ease;
+}
+
+.host-sosail a:hover {
+  background: #2e174e;
+  box-shadow: 2px 2px 15px #948f8f;
+  transform: translateY(5px) translateX(10px);
+}
+
+
+.host-sosail img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
